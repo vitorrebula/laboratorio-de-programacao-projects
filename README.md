@@ -9,16 +9,16 @@ Este projeto é um sistema de matrículas que visa facilitar o gerenciamento aca
 A estrutura de pastas foi organizada para separar as responsabilidades entre backend e frontend, seguindo o padrão MVC para o lado do servidor e uma arquitetura de componentes para o lado do cliente:
 
 
-meu-projeto/
+meu-projeto/                                                                                                                                                                              
 ├── backend/                                                                                                                                                                              
 │   ├── app/                                                                                                                                                                              
-│   │   ├── controllers/       # Lógica de controle (ex.: LoginController, MatriculaController)
-│   │   ├── models/            # Modelos de dados (ex.: Aluno, Professor, Matricula)
-│   │   ├── views/             # Views do lado do servidor (se aplicável)
-│   │   └── routes/            # Rotas do sistema
-│   ├── config/                # Configurações gerais (banco de dados, rotas, etc.)
-│   ├── database/              # Migrations, seeds e scripts de banco de dados
-│   ├── public/                # Arquivos públicos (imagens, CSS, JS para acesso externo)
+│   │   ├── controllers/       # Lógica de controle (ex.: LoginController, MatriculaController)                                                                                            
+│   │   ├── models/            # Modelos de dados (ex.: Aluno, Professor, Matricula)                                                                                                      
+│   │   ├── views/             # Views do lado do servidor (se aplicável)                                                                                                                  
+│   │   └── routes/            # Rotas do sistema                                                                                                                                          
+│   ├── config/                # Configurações gerais (banco de dados, rotas, etc.)                                                                                                        
+│   ├── database/              # Migrations, seeds e scripts de banco de dados                                                                                                             
+│   ├── public/                # Arquivos públicos (imagens, CSS, JS para acesso externo)                                                                                                  
 │   └── tests/                 # Testes unitários e de integração
 │
 ├── frontend/
