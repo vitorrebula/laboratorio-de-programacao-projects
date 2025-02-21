@@ -39,3 +39,4 @@ meu-projeto/
 │   └── tests/                 # Testes de componentes e integração
 │
 └── README.md                  # Documentação do projeto
+
