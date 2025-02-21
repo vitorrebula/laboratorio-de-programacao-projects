@@ -20,8 +20,7 @@ meu-projeto/
 │   ├── database/              # Migrations, seeds e scripts de banco de dados                                                                                                             
 │   ├── public/                # Arquivos públicos (imagens, CSS, JS para acesso externo)                                                                                                  
 │   └── tests/                 # Testes unitários e de integração                                                                                                                          
-│                                                                                                                                                                                          
-├── frontend/                                                                                                                                                                              
+│                                                                                                                                                                                          ├── frontend/                                                                                                                                                                              
 │   ├── src/                                                                                                                                                                               
 │   │   ├── components/        # Componentes reutilizáveis                                                                                                                                 
 │   │   │   ├── Auth/          # Componentes de autenticação (Login, Cadastro)                                                                                                             
