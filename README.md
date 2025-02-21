@@ -10,8 +10,8 @@ A estrutura de pastas foi organizada para separar as responsabilidades entre bac
 
 
 meu-projeto/
-├── backend/
-│   ├── app/
+├── backend/                                                                                                                                                                              
+│   ├── app/                                                                                                                                                                              
 │   │   ├── controllers/       # Lógica de controle (ex.: LoginController, MatriculaController)
 │   │   ├── models/            # Modelos de dados (ex.: Aluno, Professor, Matricula)
 │   │   ├── views/             # Views do lado do servidor (se aplicável)
