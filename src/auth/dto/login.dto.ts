@@ -5,11 +5,9 @@ import {
 } from "class-validator";
 
 
-export class AuthDto {
+export class LoginDto {
 
-    @IsNotEmpty()
-    @IsString()
-    nome: string;
+
 
     @IsNotEmpty()
     @IsEmail()
@@ -19,10 +17,4 @@ export class AuthDto {
     @IsNotEmpty()
     senha: string;
 
-    @IsString()
-    @IsNotEmpty()
-    cpf: string;
-
-    @IsNotEmpty()
-    dataNascimento: Date;
 }
