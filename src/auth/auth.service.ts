@@ -6,10 +6,8 @@ import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
 import { LoginDto } from "./dto/login.dto";
 import { JwtService } from "@nestjs/jwt";
 import { ConfigService } from "@nestjs/config";
-import { access } from "fs";
 
 @Injectable()
-
 export class AuthService {
     constructor(
         private prisma: PrismaService,
