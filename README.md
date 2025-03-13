@@ -6,8 +6,9 @@ Este projeto é um sistema de matrículas que visa facilitar o gerenciamento aca
 
 ## Estrutura de Pastas
 
-Listagem de caminhos de pasta
+Listagem de caminhos de pasta:
 
+```
 C:.
 ├───doc
 │   └───diagrams
@@ -23,3 +24,4 @@ C:.
 │   ├───prisma
 │   └───professor
 └───test
+```
