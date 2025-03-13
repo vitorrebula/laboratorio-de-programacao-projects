@@ -25,12 +25,22 @@ model Professor {
 }
 
 model Aluno {
-  id             Int      @id @default(autoincrement())
+  id             Int          @id @default(autoincrement())
   senha          String
   nome           String
   dataNascimento DateTime
-  email          String   @unique
-  cpf            String   @unique
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  email          String       @unique
+  cpf            String       @unique
+  disciplinas    Disciplina[] // Relação muitos-para-muitos
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+}
+
+model Disciplina {
+  id        Int      @id @default(autoincrement())
+  nome      String
+  // Você pode adicionar outros campos, como descrição, carga horária, etc.
+  alunos    Aluno[] // Relação muitos-para-muitos
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }

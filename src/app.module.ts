@@ -4,6 +4,8 @@ import { AlunoModule } from './aluno/aluno.module';
 import { ProfessorModule } from './professor/professor.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { ConfigModule } from '@nestjs/config';
+import { DisciplinaModule } from './disciplina/disciplina.module';
+import { MatriculaModule } from './matricula/matricula.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -12,7 +14,9 @@ import { ConfigModule } from '@nestjs/config';
     AuthModule,
     AlunoModule,
     ProfessorModule,
-    PrismaModule
+    PrismaModule,
+    DisciplinaModule,
+    MatriculaModule
   ],
   controllers: [],
   providers: [],
